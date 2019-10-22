@@ -1,0 +1,44 @@
+.headerApp {
+  background-color: $color-header;
+  border-bottom: 1px solid black;
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    .logo {
+      font-family: $logo-font;
+      font-size: 30px;
+      width: 40%;
+      margin-left: 25px;
+      a {
+        text-decoration: none;
+        color: $color-logo-orange;
+        span {
+          font-size: 30px;
+          color: $color-logo-white;
+        }
+      }
+    }
+    .person {
+      margin-right: 35px;
+      width: 10%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .name {
+        font-size: 25px;
+        color: $color-logo-white;
+
+      }
+      i {
+        padding: 0 30px;
+        font-size: 50px;
+        color: $color-highlights;
+      }
+    }
+  }
+}
+
+

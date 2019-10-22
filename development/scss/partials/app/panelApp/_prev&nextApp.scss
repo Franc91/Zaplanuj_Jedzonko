@@ -1,0 +1,39 @@
+.dashboard {
+  .screen {
+    // display: none;
+    .bottom {
+      .prevNext {
+        margin: 25px 15px 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .prev {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: $color-highlights;
+          i {
+            font-size: 15px;
+            margin-right: 5px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+        .next {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: $color-highlights;
+          p {
+            font-size: 15px;
+          }
+          i {
+            font-size: 15px;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

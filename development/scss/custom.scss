@@ -1,0 +1,31 @@
+// CDN FONTAWESOME
+// <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+//
+// Sass:
+// https://fontawesome.com/how-to-use/on-the-web/using-with/sass
+
+// Strona główna
+
+@import "partials/reset";
+@import "modules/all";
+@import "partials/body";
+@import "partials/header";
+@import "partials/carousel";
+@import "partials/cta&btn";
+@import "partials/features";
+@import "partials/newsletter";
+@import "partials/aboutMe";
+@import "partials/footer";
+@import "partials/app/panelApp/messageForm";
+
+// Aplikacja
+
+@import "partials/app/headerApp";
+@import "partials/app/panelApp/menuApp";
+@import "partials/app/panelApp/widgetsApp";
+@import "partials/app/panelApp/weekPlanApp";
+@import "partials/app/panelApp/prev&nextApp";
+@import "partials/app/panelApp/newRecipe";
+@import "partials/app/panelApp/recipes";
+@import "partials/app/panelApp/schedules";
+@import "partials/app/panelApp/addPlan";

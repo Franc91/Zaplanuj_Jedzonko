@@ -1,0 +1,45 @@
+{
+  "name": "Zaplanuj-Jedzonko",
+  "version": "1.0.0",
+  "description": "Front-End ScrumLab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodersLab-core/FER_SCRUM_LAB.git"
+  },
+  "author": [
+    "Szymon Franczak",
+    "Bartłomiej Strużyk",
+    "Michał Rożdżyński",
+    "Wojciech Ołownia"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodersLab-core/FER_SCRUM_LAB/issues"
+  },
+  "homepage": "https://github.com/CodersLab-core/FER_SCRUM_LAB#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}

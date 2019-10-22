@@ -1,0 +1,93 @@
+.CTA {
+  background-color: $color-header;
+  .container {
+    width: 80%;
+    font-family: $regular-font;
+    display: flex;
+    justify-content: space-between;
+    .CTA-text {
+      width: 70%;
+      color: $color-logo-white;
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      .CTA_title {
+        display: inline-block;
+        font-size: 35px;
+        margin-bottom: 15px;
+        font-weight: 500;
+      }
+      p {
+        display: inline-block;
+        margin-bottom: 15px;
+        font-size: 20px;
+      }
+    }
+    .CTA-button {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .CTA_btns {
+        width: 225px;
+        height: 60px;
+        background-color: $color-buttons;
+        padding: auto 0;
+        font-weight: bold;
+        outline:none;
+        border: 0;
+        a {
+          font-size: 20px;
+          text-decoration: none;
+          color: $color-logo-white;
+        }
+        &:hover {
+          box-shadow: 1rem 1rem 2rem rgba(0,0,0,.8);
+          animation: shake 0.5s linear;
+          -webkit-animation: shake 0.5s linear;
+        }
+        &:active {
+          box-shadow: 1rem 1rem 1rem rgba(0,0,0,.2);
+          top: .35rem;
+          left: .14rem;
+        }
+      }
+    }
+  }
+}
+
+//animacja shake
+
+@keyframes shake{
+  10%, 90% {
+    transform: translate3d(-.1px, 0, 0);
+    -webkit-transform: translate3d(-.1px, 0, 0);
+    -moz-transform: translate3d(-.1px, 0, 0);
+    -ms-transform: translate3d(-.1px, 0, 0);
+    -o-transform: translate3d(-.1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(.14px, 0, 0);
+    -webkit-transform: translate3d(.14px, 0, 0);
+    -moz-transform: translate3d(.14px, 0, 0);
+    -ms-transform: translate3d(.14px, 0, 0);
+    -o-transform: translate3d(.14px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-.28rem, 0, 0);
+    -webkit-transform: translate3d(-.28rem, 0, 0);
+    -moz-transform: translate3d(-.28rem, 0, 0);
+    -ms-transform: translate3d(-.28rem, 0, 0);
+    -o-transform: translate3d(-.28rem, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(.28rem, 0, 0);
+    -webkit-transform: translate3d(.28rem, 0, 0);
+    -moz-transform: translate3d(.28rem, 0, 0);
+    -ms-transform: translate3d(.28rem, 0, 0);
+    -o-transform: translate3d(.28rem, 0, 0);
+  }
+}

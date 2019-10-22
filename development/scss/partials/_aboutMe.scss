@@ -1,0 +1,33 @@
+.aboutMe {
+  background-color: $color-screen-background;
+  font-family: $regular-font;
+  .container {
+    width: 75%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    .photo-container {
+      margin: 0 auto;
+      width: 25%;
+      .photo {
+        background-image: url('https://cdn.pixabay.com/photo/2015/10/11/14/13/making-food-982410_960_720.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 360px;
+      }
+    }
+    .about-text {
+      width: 60%;
+      color: $color-table-font;
+      margin: 0 auto;
+      h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}

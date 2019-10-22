@@ -1,0 +1,172 @@
+.dashboard {
+  .screen {
+    display: none;
+    width: 80%;
+    height: calc(100vh - (57px + 31px));
+    background-image: url("https://trello-attachments.s3.amazonaws.com/5d9754a7237ffc3fac77c990/5d9754a8237ffc3fac77ca03/500x500/61283ee4504d391acc94c3016da8999f/image.png");
+    font-family: $regular-font;
+    .anotherTime {
+      width: 100%;
+      height: 100%;
+      padding-top: 35px;
+      .container {
+        width: 90%;
+        height: 680px;
+        .top {
+          width: 100%;
+          height: 28%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          align-items: center;
+          .addRecipe {
+            width: 20%;
+            height: 100%;
+            background-color: $color-screen-background;
+            border: 1px dashed $color-success-massage;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            i {
+              font-size: 75px;
+              color: $color-success-massage;
+              margin-bottom: 15px;
+            }
+            p {
+              font-size: 20px;
+              color: $color-success-massage;
+              margin-bottom: 5px;
+            }
+          }
+          .addPlan {
+            width: 20%;
+            height: 100%;
+            background-color: $color-screen-background;
+            border: 1px dashed $color-success-massage;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            i {
+              font-size: 75px;
+              color: $color-success-massage;
+              margin-bottom: 15px;
+            }
+            p {
+              font-size: 20px;
+              color: $color-success-massage;
+              margin-bottom: 5px;
+            }
+          }
+          .alerts {
+            width: 55%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .alertRecipes {
+              height: 30%;
+              background-color: $color-screen-background;
+              border: 1px dashed $color-info-massage;
+              color: $color-info-massage;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              i {
+                font-size: 35px;
+                margin-left: 10px;
+              }
+              p {
+                width: 85%;
+                font-size: 18px;
+                #numRecipes {
+                  font-size: 18px;
+                }
+              }
+              .times {
+                width: 20px;
+                height: 18px;
+                background-color: $color-info-massage;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+                margin-bottom: 20px;
+                i {
+                  color: $color-screen-background;
+                  font-size: 10px;
+                  margin-left: 0;
+                }
+              }
+            }
+            .alertPlan {
+              height: 30%;
+              background-color: $color-screen-background;
+              border: 1px dashed $color-warning-massage;
+              color: $color-warning-massage;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              i {
+                font-size: 35px;
+                margin-left: 10px;
+              }
+              p {
+                width: 85%;
+                font-size: 18px;
+              }
+              .times {
+                width: 20px;
+                height: 18px;
+                background-color: $color-warning-massage;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+                margin-bottom: 20px;
+                i {
+                  color: $color-screen-background;
+                  font-size: 10px;
+                  margin-left: 0;
+                }
+              }
+            }
+            .alertGood {
+              height: 30%;
+              background-color: $color-screen-background;
+              border: 1px dashed $color-success-massage;
+              color: $color-success-massage;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              i {
+                font-size: 35px;
+                margin-left: 10px;
+              }
+              p {
+                width: 85%;
+                font-size: 18px;
+              }
+              .times {
+                width: 20px;
+                height: 18px;
+                background-color: $color-success-massage;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+                margin-bottom: 20px;
+                i {
+                  color: $color-screen-background;
+                  font-size: 10px;
+                  margin-left: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+header {
+  background-color: $color-header;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      font-family: $logo-font;
+      font-size: 45px;
+      width: 40%;
+      a {
+        text-decoration: none;
+        color: $color-logo-orange;
+        span {
+          font-size: 45px;
+          color: $color-logo-white;
+        }
+      }
+    }
+    .headerList {
+      width: 55%;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      a {
+        font-size: 17px;
+        text-decoration: none;
+        color: $color-logo-white;
+        &:first-child {
+          color: $color-logo-orange;
+        }
+      }
+    }
+  }
+}

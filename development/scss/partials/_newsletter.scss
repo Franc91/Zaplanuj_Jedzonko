@@ -1,0 +1,40 @@
+.news {
+  background-color: $color-nav;
+  .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-family: $regular-font;
+    .newsletter-text {
+      color: $color-logo-white;
+      h3 {
+        font-size: 45px;
+      }
+    }
+    .newsletter-form {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      input[type="submit"] {
+        background-color: $color-buttons;
+        color: $color-logo-white;
+        font-weight: bold;
+        outline: none;
+        padding: 15px 50px;
+        font-size: 20px;
+        &:hover{
+          box-shadow: .5rem .5rem 2rem rgba(0,0,0,.8);
+        }
+        &:active{
+          box-shadow: none;
+        }
+      }
+      input[type="text"] {
+        padding: 0 10px;
+        outline: none;
+      }
+    }
+  }
+}
